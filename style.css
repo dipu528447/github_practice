@@ -1,61 +1,69 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(68, 214, 185);
-    
+
     font-family: Tahoma;
 }
-main{
+
+main {
     /* border: 1px solid gray; */
     border-radius: 10px;
     width: 30vw;
     height: 50vh;
     margin: auto;
-    margin-top: 100px; 
+    margin-top: 100px;
     background-color: aliceblue;
 }
-.header{
+
+.header {
     text-align: center;
-    color:white;
-    background-color: rgb(22, 160, 134);   
+    color: white;
+    background-color: rgb(22, 160, 134);
     width: 30vw;
-    height:10vh;
+    height: 10vh;
     border-radius: 12px;
 }
-.header>p{
+
+.header>p {
     padding: 15px 0px;
     font-size: 2rem;
     font-weight: 200;
 }
 
-#textEmail{
-    width:25vw;
-    height:8vh;
+#textEmail {
+    width: 25vw;
+    height: 8vh;
     border-radius: 5px;
     display: block;
     font-size: larger;
     padding-left: 20px;
     margin: 20px 40px;
 }
-#textPassword{
-    width:25vw;
-    height:8vh;
+
+#textPassword {
+    width: 25vw;
+    height: 8vh;
     border-radius: 5px;
     display: block;
     font-size: larger;
     padding-left: 20px;
     margin: 20px 40px;
 }
-.txtForgotPass{
+
+.txtForgotPass {
     margin: 10px 40px;
 }
-.txtForgotPass>a{
+
+.txtForgotPass>a {
     text-decoration: none;
 }
-button{
+
+button {
     width: 25vw;
     height: 8vh;
     background-color: rgb(22, 160, 134);
